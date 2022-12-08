@@ -1,8 +1,10 @@
 # palabrita
-## Undergrad assignment for EFB1023 at Universiti Teknologi PETRONAS.
+## A Worlde clone for an undergrad assignment for EFB1023 at Universiti Teknologi PETRONAS.
 
 Developed by Zech and Ander (C) 2022
 for EFB1023 Structured Programming and Interfacing (Sep 2022) group project at Universiti Teknologi PETRONAS.
+
+[![Watch the gameplay](https://img.youtube.com/vi/ZWK8WeGH8AU/maxresdefault.jpg)](https://www.youtube.com/watch?v=ZWK8WeGH8AU)
 
 Palabrita is released under the GNU General Public License Version 3.
 
