@@ -9,7 +9,8 @@ Click to watch the video below⬇️
 
 Palabrita is released under the GNU General Public License Version 3.
 
-Disclaimer: Some of the comments in the source code are misleading because they were outdated.
+### Disclaimer
+Some of the comments in the source code are misleading because they were outdated.
 Any comments claiming that X does not work should be ignored.
 
 Known dependencies:
