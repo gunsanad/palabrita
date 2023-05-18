@@ -1,7 +1,7 @@
 # palabrita
 ## A Wordle clone for an undergrad assignment for EFB1023 at Universiti Teknologi PETRONAS.
 
-Developed by Zech [Catridgeevantrav](https://github.com/Catridgeevantrav) and Ander © 2022
+Developed by Zech [(Catridgeevantrav)](https://github.com/Catridgeevantrav) and Ander © 2022
 for EFB1023 Structured Programming and Interfacing (Sep 2022) group project.
 
 Click to watch the video below⬇️
