@@ -764,13 +764,6 @@ void YAssignColor(char *nickname, int colorchart) {
     } 
 }
 
-void DrawPreview() { //This function is untested. God knows if it works. Update: it's not working rn :(
-    for (int index = 0; index < 30; index++) {
-        YAssignColor(previewmatrix_link_index_to_nickname[index], previewmatrix_link_index_to_state[index]);
-        YNewButton(previewmatrix_link_index_to_nickname[index], previewmatrix_link_index_to_label[index], 1);
-    }
-}
-
 /* Sets location and dimensions info for the preview matrix */
 void SetPreviewDimensions() {
     int i = 0;
@@ -1360,7 +1353,7 @@ void DrawErrorDisplay(int errorindex) {
         gfx_text(errordisplay_link_index_to_label[0], 530, 0.30*70, 4);
         gfx_flush();
         sleep(1.10);
-	    gfx_color(253, 249, 227); //Redraws over the notice with a triangle with the same size in the bg color
+	    gfx_color(253, 249, 227); //Redraws over the notice with a rectangle with the same size in the bg color
 	    gfx_fillrectangle(0, 0, 1280, 70);
     }
     else if (errorindex == 1) {
@@ -1370,7 +1363,7 @@ void DrawErrorDisplay(int errorindex) {
         gfx_text(errordisplay_link_index_to_label[1], 535, 0.30*70, 4);
         gfx_flush();
         sleep(1.10);
-	    gfx_color(253, 249, 227); //Redraws over the notice with a triangle with the same size in the bg color
+	    gfx_color(253, 249, 227); //Redraws over the notice with a rectangle with the same size in the bg color
 	    gfx_fillrectangle(0, 0, 1280, 70);
     }
     else if (errorindex == 2) {
@@ -1381,7 +1374,7 @@ void DrawErrorDisplay(int errorindex) {
         gfx_flush();
 
         sleep(1.10);
-	    gfx_color(253, 249, 227); //Redraws over the notice with a triangle with the same size in the bg color
+	    gfx_color(253, 249, 227); //Redraws over the notice with a rectangle with the same size in the bg color
 	    gfx_fillrectangle(0, 0, 1280, 70);
     }
 }
